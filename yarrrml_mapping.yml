@@ -1,0 +1,12 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  ex: http://www.ex.org/
+
+mappings:
+  Sede:
+    sources:
+      - [directorio_sedes_ieo_2023.csv~csv]
+    s: http://www.ex.org/$(codigo_dane_sede)
+    po:
+    - [a, ex:Ejemplo]
+    
